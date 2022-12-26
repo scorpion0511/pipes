@@ -26,6 +26,6 @@ stages:
        command: build
        Dockerfile: Dockerfile
        buildContext: .
-       containerRegistry: 'Docker Hub'
+       containerRegistry: 'sherifsadek'
        repository: 'sherifsadek'
        tags: '$(Build.BuildId)'
