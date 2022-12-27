@@ -23,7 +23,7 @@ stages:
     - task: Docker@2
       displayName: Build Docker image
       inputs:
-       command: build
+       command: buildAndPush
        Dockerfile: Dockerfile
        buildContext: .
        containerRegistry: 'sherifsadek'
