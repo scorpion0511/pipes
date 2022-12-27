@@ -24,7 +24,7 @@ stages:
       displayName: Build Docker image
       inputs:
        command: buildAndPush
-       Dockerfile: './ Dockerfile'
+       Dockerfile: './Dockerfile'
        containerRegistry: sherifsadek
        repository: sherifsadek/pipes
        tags: '$(Build.BuildId)'
