@@ -25,4 +25,4 @@ spec:
           imagePullPolicy: IfNotPresent                         # 7
           name: pipes
           ports:
-            - containerPort: 80
+            - containerPort: 8080
