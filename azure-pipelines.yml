@@ -3,7 +3,9 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
 pr:
-- feature2
+ branches:  # Branch names to include or exclude for triggering a run.
+    include: [feature2] 
+    exclude: [main, feature1]
 
 resources:
 - repo: self
