@@ -4,8 +4,10 @@
 
 pr:
  branches:  # Branch names to include or exclude for triggering a run.
-    include: [feature2] 
-    exclude: [main, feature1]
+    include: 
+    - feature2 
+    exclude: 
+    - main
 
 resources:
 - repo: self
