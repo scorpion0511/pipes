@@ -43,8 +43,12 @@ public class SampleServletApplication extends SpringBootServletInitializer {
 			public void service(ServletRequest req, ServletResponse res)
 					throws ServletException, IOException {
 				res.setContentType("text/plain");
+<<<<<<< HEAD
 
 				res.getWriter().append("Hello World - This is Pipe application - modified branch!");
+=======
+				res.getWriter().append("Hello World - This is Pipe application - modified branch --- timegi!");
+>>>>>>> db90a943eb1db336f24cf000ae9eb072379cd2b1
 			}
 		};
 	}

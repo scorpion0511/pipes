@@ -3,7 +3,7 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
 pr:
-- feature1
+- feature2
 
 resources:
 - repo: self
