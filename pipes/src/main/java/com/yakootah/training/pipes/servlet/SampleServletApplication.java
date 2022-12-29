@@ -37,7 +37,7 @@ public class SampleServletApplication extends SpringBootServletInitializer {
 
 	@SuppressWarnings("serial")
 	@Bean
-	//just a dummy comment
+	
 	public Servlet dispatcherServlet() {
 		return new GenericServlet() {
 			@Override
