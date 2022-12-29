@@ -31,4 +31,4 @@ stages:
        Dockerfile: './Dockerfile'
        containerRegistry: sherifsadek
        repository: sherifsadek/pipes
-       tags: 'latest'
+       tags: '1.0.5'
